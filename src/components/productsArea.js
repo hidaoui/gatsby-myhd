@@ -71,7 +71,7 @@ const ProductsArea = () => {
 
 
 				</div>
-				<div className="col-xl-12 col-lg-12 fix">
+				<div className="col-xl-12 col-lg-12 fix"> 
 		
 					<div className="product-categories mt-sm-40">
 						<div className="row">

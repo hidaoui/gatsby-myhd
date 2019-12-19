@@ -51,7 +51,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      {/*}
       <SliderArea></SliderArea>
+  {*/}
       <main>{children}</main>
       <Footer></Footer>
     </>

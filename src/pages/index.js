@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 //import Image from "../components/image"
 import SEO from "../components/seo"
 import ProductsArea from '../components/productsArea'
+import Jobs from "../components/Jobs"
 /*
 const IndexPage = (props) => (
   <Layout>
@@ -26,6 +27,8 @@ const IndexPage = (props) => {
   return (
     <Layout>
     <SEO title="Home" />
+    <Jobs items={props.data.allJobs}></Jobs>
+    {/*}
     <ProductsArea></ProductsArea>
     <div>
       {jobs.map((job, i) => {
@@ -63,7 +66,7 @@ const IndexPage = (props) => {
           </tbody>
         </table>
       </div>
-
+            {*/}   
 
     </Layout>
   );
@@ -96,6 +99,7 @@ export const query = graphql`
           jobnumber
           jobtitle
           jobprice
+          product
         }
       }
     },

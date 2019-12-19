@@ -38,6 +38,7 @@ exports.sourceNodes = async ({ boundActionCreators  }) => {
       jobnumber: job.jobnumber,
       jobtitle: job.jobtitle,
       jobprice: job.jobprice,
+      product: job.product,
       // etc...
     }
 
