@@ -4,7 +4,7 @@ require("dotenv").config({
     path: `.env.${process.env.NODE_ENV || 'development'}`,
 });
 //console.log(process.env.MYHD_API_URL);
-
+/*
 exports.sourceNodes = async ({ boundActionCreators  }) => {
     const { createNode } = boundActionCreators 
     // Create nodes here, generally by downloading data
@@ -58,14 +58,4 @@ exports.sourceNodes = async ({ boundActionCreators  }) => {
 
     return
   }
-
-  exports.onCreateWebpackConfig = ({
-    actions,
-  }) => {
-    const { setWebpackConfig } = actions;
-    setWebpackConfig({
-      externals: {
-        jquery: 'jQuery', // important: 'Q' capitalized
-      }
-    })
-  }
+  */

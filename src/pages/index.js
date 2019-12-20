@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ProductsArea from '../components/productsArea'
 import Jobs from "../components/Jobs"
-import { Contact } from "../components/Contact"
 /*
 const IndexPage = (props) => (
   <Layout>
@@ -29,7 +28,7 @@ const IndexPage = (props) => {
     <Layout>
     <SEO title="Home" />
     <Jobs items={props.data.allJobs}></Jobs>
-    <Contact></Contact>
+    
     {/*}
     <ProductsArea></ProductsArea>
     <div>
